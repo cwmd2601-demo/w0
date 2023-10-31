@@ -2,6 +2,18 @@
 
 * {
     text-align: center;
+    color: black;
+}
+
+/*Element selector*/
+img {
+    width: 350px;
+    height: 200px;
+}
+
+/*Class selector*/
+.myClass {
+    font-style: italic;
 }
 
 /*Element selector*/
@@ -18,24 +30,11 @@ p {
     to {background-color: red;}
 }
 
-h1 {
-    
-}
-
-div {
-    width: 50%;
-    margin: 0 auto; /* This centers the div horizontally */
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center; /* This centers the content inside the div */
-}
-
 #myHeader {
     margin: auto;
     width: 70%;
-    color: royalblue;
 }
 /*ID selector*/
 #myBtn:hover {
-background-color: yellow;
+  background-color: yellow;
 }
