@@ -1,0 +1,41 @@
+/* basic css */
+
+* {
+    text-align: center;
+}
+
+/*Element selector*/
+p {
+    margin: auto;
+    width: 30%;
+    animation-name: animationEg;
+    animation-duration: 4s;
+    border: 1px solid grey;
+  }
+  
+@keyframes animationEg {
+    from {background-color: green;}
+    to {background-color: red;}
+}
+
+h1 {
+    
+}
+
+div {
+    width: 50%;
+    margin: 0 auto; /* This centers the div horizontally */
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center; /* This centers the content inside the div */
+}
+
+#myHeader {
+    margin: auto;
+    width: 70%;
+    color: royalblue;
+}
+/*ID selector*/
+#myBtn:hover {
+background-color: yellow;
+}
